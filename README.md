@@ -36,7 +36,7 @@
     * 201 - Created. Returned on successful creation of a new resource. Include a 'Location' header with a link to the newly-created resource.
     * 400 - Bad request. Data issues such as invalid JSON, etc.
     * 401 - User could not be authenticated
-    * 402 - User authenticated but unauthorized to perform the operation.
+    * 403 - User authenticated but unauthorized to perform the operation.
     * 404 - Not found. Resource not found on GET.
     * 409 - Conflict. Duplicate data or invalid data state would occur.
 
